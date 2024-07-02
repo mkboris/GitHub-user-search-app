@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://github.com/mkboris/GitHub-user-search-app)
+- [Live Site](https://git-hub-user-search-app-omega.vercel.app/)
 
 ## My process
 
@@ -73,7 +73,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Light & Dark Mode with CSS Variables](https://www.youtube.com/watch?v=6YrOGKmGTCY&list=PPSV)Creating custom light-dark mode theme with CSS variables and a little JavaScript.
+- [Light & Dark Mode with CSS Variables](https://www.youtube.com/watch?v=6YrOGKmGTCY&list=PPSV) - Creating custom light-dark mode theme with CSS variables and a little JavaScript.
 
 ## Author
 
