@@ -92,7 +92,6 @@ const getUser = async function (username) {
       errMsg.style.display = "block";
       throw new Error("No results");
     }
-
     errMsg.style.display = "none";
 
     const data = await res.json();
