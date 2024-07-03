@@ -368,6 +368,7 @@ a {
   font-size: clamp(0.8125rem, 0.8125rem + 0.5vw, 0.9375rem);
   line-height: 1.375;
   color: var(--date);
+  transition: all 0.9s ease;
 }
 
 .user__bio-wrap {
@@ -392,6 +393,7 @@ a {
   border-radius: 0.625rem;
   margin-bottom: 1.5rem;
   padding: 1.125rem 0.9375rem;
+  transition: all 0.5s ease-in;
 }
 
 .user__stats {
@@ -429,7 +431,7 @@ a {
   align-items: center;
 }
 
-.user__info-link:hover {
+.user__info-website:hover {
   text-decoration: underline;
 }
 
