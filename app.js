@@ -1,14 +1,12 @@
 "use strict";
 
-const errMsg = document.querySelector(".form__error-msg");
-const btn = document.querySelector(".form__btn");
-
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector(".form");
   const input = document.querySelector(".form__input");
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
+
     const username = input.value;
     if (username) {
       getUser(username);
@@ -89,6 +87,7 @@ const renderUser = function (data) {
 const getUser = async function (username) {
   try {
     const res = await fetch(`https://api.github.com/users/${username}`);
+    const errMsg = document.querySelector(".form__error-msg");
     if (!res.ok) {
       errMsg.style.display = "block";
       throw new Error("No results");
