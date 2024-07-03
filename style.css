@@ -4,13 +4,13 @@
   --btn-hover: hsl(212, 100%, 69%);
   --btn-text: hsl(0, 0%, 100%);
   --error: hsl(0, 91%, 62%);
-  --shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
 
   /* Dark Theme */
   --body-dark: hsl(220, 40%, 13%);
   --card-dark: hsl(222, 41%, 20%);
   --text-dark: var(--btn-text);
   --moon-hv: hsl(222, 44%, 70%);
+  --shadow-dark: 0;
 
   /* Light Theme */
   --logo-light: hsl(220, 18%, 16%);
@@ -21,6 +21,7 @@
   --date-light: hsl(217, 20%, 51%);
   --stat-light: hsl(217, 21%, 21%);
   --svg-light: var(--text-light);
+  --shadow-light: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +34,7 @@
     --stat: var(--text-dark);
     --svg: var(--text-dark);
     --input: var(--text-dark);
+    --shadow: var(--shadow-dark);
   }
 }
 
@@ -46,6 +48,7 @@
     --stat: var(--stat-light);
     --svg: var(--svg-light);
     --input: var(--input-light);
+    --shadow: var(--shadow-light);
   }
 }
 
@@ -58,6 +61,7 @@
   --stat: var(--text-dark);
   --svg: var(--text-dark);
   --input: var(--text-dark);
+  --shadow: var(--shadow-dark);
 }
 
 [color-scheme="light"] {
@@ -69,6 +73,7 @@
   --stat: var(--stat-light);
   --svg: var(--svg-light);
   --input: var(--input-light);
+  --shadow: var(--shadow-light);
 }
 
 /* Box sizing rules */
