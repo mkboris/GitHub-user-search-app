@@ -34,12 +34,15 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- CSS Grid
-- Flexbox
-- Mobile-first workflow
-- Fetch
+- **Semantic HTML5 markup** - Structured the content of the web page using meaningful and descriptive tags.
+- **CSS custom properties** - Utilized for defining reusable variables for colors, fonts, and other styles.
+- **JavaScript** - Implemented dynamic behavior and interactive features.
+- **CSS Grid** - Employed for creating complex layouts with a grid-based design.
+- **Flexbox** - Used for aligning and distributing space among items in a container.
+- **Mobile-first workflow** - Ensured the design and development prioritized mobile user experience.
+- **Fetch API** - Integrated to make network requests and handle asynchronous data fetching.
+
+### Useful resources
 
 - [Light & Dark Mode with CSS Variables](https://www.youtube.com/watch?v=6YrOGKmGTCY&list=PPSV) - Creating custom light-dark mode theme with CSS variables and a little JavaScript.
 
